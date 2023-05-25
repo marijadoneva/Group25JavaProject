@@ -1,4 +1,4 @@
-package hanan;
+package Hanan;
 
 public class FinrraTask3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package hanan;
+package Hanan;
 
 public class OddOrEven {
         public static String identify(int number) {

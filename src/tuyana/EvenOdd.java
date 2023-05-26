@@ -8,6 +8,7 @@ public class EvenOdd {
             return "Odd";
         }
     }
+
     public static void main(String[] args) {
 
 

@@ -3,28 +3,25 @@ package Marija.week2;
 public class DivisibleNumbers {
     public static void main(String[] args) {
 
+        String divisibleBy15 = "";
+        String divisibleBy5 = "";
+        String divisibleBy3 = "";
+
         for (int i = 1; i <=100 ; i++) {
 
-            if (i%3==0 || i%5==0 || i%15==0){
-
-                System.out.println(i);
-
+            if (i%3==0 && i%5==0 && i%15==0){
+                divisibleBy15+=i+" ";
+            } else if (i%5==0) {
+                divisibleBy5+=i+" ";
+            } else if (i%3==0) {
+                divisibleBy3+=i+" ";
             }
-
-
-//            String divisibleBy15 = "";
-//            String divisibleBy5 = "";
-//            String DivisibleBy3 = "";
-//
-//            if (i%3==0 || i%5==0 || i%15==0){
-//                divisibleBy15=i + " ";
-//            } else if (i%5==0) {
-//                divisibleBy5= i + " ";
-//            }
 
         }
 
-        System.out.println();
+        System.out.println("Divisible by 15: "+ divisibleBy15 + "\nDivisible by 5: " + divisibleBy5 + "\nDivisible by 3: "+ divisibleBy3);
+
+
 
 
     }

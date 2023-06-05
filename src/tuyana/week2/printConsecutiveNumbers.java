@@ -1,4 +1,4 @@
-package tuyana;
+package tuyana.week2;
 
 public class printConsecutiveNumbers {
 

@@ -1,4 +1,4 @@
-package tuyana;
+package tuyana.week1;
 
 public class EvenOdd {
     public static String identify(int number) {

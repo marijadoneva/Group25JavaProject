@@ -1,4 +1,4 @@
-package tuyana;
+package tuyana.week1;
 
 import java.util.Scanner;
 

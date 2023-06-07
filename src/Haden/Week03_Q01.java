@@ -31,11 +31,25 @@ public class Week03_Q01 {
                 return false;
             }
         }
-
+        System.out.println(num + " is not a prime number");
         return true;
-
     }
 
-
+    // Second Solution
+    public static boolean isPrime(int n) {
+        // If n is less than 2, it is not prime
+        if (n < 2) {
+            return false;
+        }
+        // Check if n is divisible by any number from 2 to its square root
+        for (int i = 2; i * i <= n; i++) {
+            // If n is divisible by i, it is not prime
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        // If none of the above conditions are met, n is prime
+        return true;
+    }
 
 }

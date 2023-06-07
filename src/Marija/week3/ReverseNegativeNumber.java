@@ -9,8 +9,7 @@ public class ReverseNegativeNumber {
 
     public int ReverseNegative(int a){
         int b=0;
-
-
+        
         return b;
     }
 

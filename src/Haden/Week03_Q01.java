@@ -17,6 +17,8 @@ public class Week03_Q01 {
         int num = scn.nextInt();
         System.out.println(primeNumber(num));
 
+        scn.close();
+
     }
 
     public static boolean primeNumber(int num) {

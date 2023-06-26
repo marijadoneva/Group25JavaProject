@@ -3,6 +3,8 @@ package Marija.week5;
 public class UniqueCharacters {
     public static void main(String[] args) {
 
+        unique("AAABBBCCCDEF");
+        unique("cydeothecydeo");
     }
 
 
@@ -10,8 +12,10 @@ public class UniqueCharacters {
         String uniqueChar="";
 
         for (int i = 0; i<=word.length()-1 ; i++) {
-            char uniq = word.charAt(i);
-           // if ()
+            String uniq = word.charAt(i)+"";
+           if(word.indexOf(uniq)==word.lastIndexOf(uniq)){
+               uniqueChar+=uniq;
+           }
 
         }
 

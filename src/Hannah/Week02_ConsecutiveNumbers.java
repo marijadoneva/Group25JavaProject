@@ -1,6 +1,6 @@
 package Hannah;
 
-public class ConsecutiveNumbers {
+public class Week02_ConsecutiveNumbers {
 
     public static class consecutiveNumbers {
         public static void printConsecutiveNumbers(int N) {

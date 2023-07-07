@@ -1,6 +1,6 @@
 package Hannah;
 
-public class Finra {
+public class Week01_Finra {
 
     public static void printfinra() {
         for (int number = 1; number <= 30; number++) {

@@ -1,6 +1,6 @@
 package Hannah;
 
-public class DivideWithoutOperator {
+public class Week01_DivideWithoutOperator {
 
     public static int divide(int dividend, int divisor){
         int quotient = 0;

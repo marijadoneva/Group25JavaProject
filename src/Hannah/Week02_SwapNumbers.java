@@ -1,6 +1,6 @@
 package Hannah;
 
-public class SwapNumbers {
+public class Week02_SwapNumbers {
 
     public static void main(String[] args) {
         int a = 5;

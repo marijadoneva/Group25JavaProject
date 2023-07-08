@@ -1,6 +1,6 @@
 package Hannah;
 
-public class ArrayFindMaximum {
+public class Week06_ArrayFindMaximum {
 
         public static int findMaximum(int[] arr) {
             if (arr.length == 0) {

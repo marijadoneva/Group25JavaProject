@@ -2,7 +2,7 @@ package Hannah;
 
 
 
-public class PasswordValidator {
+public class Week06_PasswordValidator {
     public static boolean isValidPassword(String password) {
         // Requirement 1: Password length and no space
         if (password.length() < 6 || password.contains(" ")) {

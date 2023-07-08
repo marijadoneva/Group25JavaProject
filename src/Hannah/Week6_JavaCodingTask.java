@@ -1,8 +1,8 @@
 package Hannah;
 
-import static Hannah.JavaCodingTaskWeek6.DigitSum.sumOfDigits;
+import static Hannah.Week6_JavaCodingTask.DigitSum.sumOfDigits;
 
-public class JavaCodingTaskWeek6 {
+public class Week6_JavaCodingTask {
     public static class DigitSum {
         public static int sumOfDigits(String string){
             int digitSum = 0;

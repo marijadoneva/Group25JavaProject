@@ -1,5 +1,5 @@
 package Hannah;
-public class DivisibleNumbers {
+public class Week02_DivisibleNumbers {
     public static void main(String[] args) {
         printNumbers();
     }

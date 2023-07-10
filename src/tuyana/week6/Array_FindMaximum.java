@@ -14,9 +14,7 @@ public class Array_FindMaximum {
             if(each > max){
                 max = each;
             }
-
         }
-
 
         System.out.println("max num: " + max);
     }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Array_SortDescending {
     public static void main(String[] args) {
-        int[] array = {10,20,7, 8, 90};
+        int[] array = {100, 20, 7, 8, 90};
 
         int[] reverse = new int[array.length];
 

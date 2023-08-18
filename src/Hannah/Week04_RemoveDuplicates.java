@@ -30,3 +30,9 @@ import java.util.LinkedHashSet;
     }
 
 
+/*
+String - Remove Duplicates
+Write a return method that can remove the duplicated values from the String
+  Ex: removeDup("AAABBBCCC") ==> ABC
+
+ */

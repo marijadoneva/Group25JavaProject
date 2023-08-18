@@ -26,7 +26,7 @@ public class ArrayListSort {
             numbers.add(9);
             numbers.add(1);
             numbers.add(5);
-
+//
             System.out.println("Before sorting: " + numbers);
 
             bubbleSort(numbers);

@@ -1,0 +1,10 @@
+Array - Concat two arrays
+Write a return method that can concate two arrays
+
+ArrayList - Remove "Ahmed"
+Given a list of people' names: "Ahmed", "John", Eric", "Ahmed".....
+Write a java operation to remove all the names named Ahmed
+
+
+ArrayList - Remove some values
+Given a list of Integers 1, 2, 3, 4, 5, 6 ....etc. remove all values greater than 100.

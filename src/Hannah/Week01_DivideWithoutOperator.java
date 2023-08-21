@@ -17,3 +17,7 @@ public class Week01_DivideWithoutOperator {
         System.out.println("20/3 = "+ divide(20,3));
     }
 }
+/*
+ 2 - Numbers - Divide without / operator:
+Write a method that can divide two numbers without using division operator
+ */
